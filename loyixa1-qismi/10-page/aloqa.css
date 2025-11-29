@@ -1,0 +1,471 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aloqa_heading{
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  color: rgba(255, 62, 65, 1);
+
+}
+.aloqalar_wrapper{
+  width: 100%;
+  margin-top: 73px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.aloqa_left{
+  width: 500px;
+  height: 600px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  border: 1px solid rgba(196, 196, 196, 0.6);
+  box-shadow: 10px 14px 32px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+
+}
+.aloqa_left h5{
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: rgba(35, 31, 32, 1);
+}
+.aloqa_left_phone{
+  margin-top: 50px;
+  width: 235px;
+  height: 80px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+}
+.aloqa_left_phone a{
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0%;
+  color: black;
+}
+.aloqa_left_phone i{
+  margin-top: 5px;
+  color: rgba(255, 62, 65, 1);
+}
+.aloqa_left_mail{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  width: 230px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.aloqa_left_mail i{
+  color: rgba(255, 62, 65, 1);
+
+}
+.aloqa_left_location{
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  font-size: 20px;
+  gap: 10px;
+  margin-top: 50px;
+}
+.aloqa_left_location i{
+  color: rgba(255, 62, 65, 1);
+}
+.aloqa_left_socials{
+  margin-top: 110px;
+  width: 204px;
+  display: flex;
+  justify-content: space-between;
+}
+.aloqa_left_socials img{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 17px;
+  background-color: rgba(244, 234, 236, 1);
+}
+
+.aloqa_right{
+  width: 700px;
+  height: 613px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(196, 196, 196, 0.6);
+  box-shadow: 10px 14px 32px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.aloqa_right h5{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+.aloqa_right input{
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: rgba(247, 247, 247, 1);
+  border-radius: 9px;
+}
+.aloqa_right input::placeholder{
+  color: rgba(108, 117, 125, 1);
+  padding-left: 16px;
+}
+.aloqa_right textarea{
+  width: 100%;
+  height: 150px;
+  background-color: rgba(247, 247, 247, 1);
+  color: rgba(108, 117, 125, 1);
+  border: none;
+  outline: none;
+  border-radius: 9px;
+}
+.aloqa_right button{
+  width: 220px;
+  height: 55px;
+  background-color: rgba(239, 239, 239, 1);
+  border: none;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-top: 20px;
+
+}
+.aloqalar_bottom_flex{
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.aloqalar_bottom_right{
+  width: 720px;
+  height: 560px;
+  padding: 20px;
+
+}
+.aloqalar_bottom_right_flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 20px;
+}
+.aloqalar_bottom_right h4{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+.aloqalar_bottom_right_card{
+  width: 330px;
+  background-color: rgba(255, 255, 255, 1);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2px; */
+  border: 1px solid  rgba(93, 108, 123, 0.242);
+  border-radius: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.aloqalar_bottom_right_card p{
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0%;
+
+}
+.aloqalar_bottom_right_card a{
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  color: black;
+
+}
+
+
+
+@media only screen and (max-width:1250px){
+  .aloqalar_wrapper{
+    max-width: 710px;
+    margin: 0 auto;
+  }
+.aloqa_heading{
+  font-size: 26px;
+  padding-left: 50px;
+}
+.aloqa_left{
+  width: 278px;
+  height: 470px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  border: 1px solid rgba(196, 196, 196, 0.6);
+  box-shadow: 10px 14px 32px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+
+}
+.aloqa_left h5{
+  font-size: 18px;
+}
+.aloqa_left_phone{
+  margin-top: 30px;
+  width: 235px;
+  height: 50px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 5px;
+}
+.aloqa_left_phone a{
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0%;
+  color: black;
+}
+.aloqa_left_phone i{
+  margin-top: 5px;
+  color: rgba(255, 62, 65, 1);
+}
+.aloqa_left_mail{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 140px;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.aloqa_left_location{
+  display: flex;
+  width: 235px;
+  justify-content: space-between;
+  font-size: 12px;
+  gap: 10px;
+  margin-top: 20px;
+}
+.aloqa_left_location i{
+  color: rgba(255, 62, 65, 1);
+}
+.aloqa_left_socials{
+  margin-top: 110px;
+  width: 160px;
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.aloqa_left_socials img{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 10px;
+  background-color: rgba(244, 234, 236, 1);
+}
+
+.aloqa_right{
+  width: 415px;
+  height: 470px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(196, 196, 196, 0.6);
+  box-shadow: 10px 14px 32px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aloqa_right h5{
+  font-weight: 600;
+  font-size: 14pxpx;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+.aloqa_right input{
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: rgba(247, 247, 247, 1);
+  border-radius: 9px;
+}
+.aloqa_right input::placeholder{
+  color: rgba(108, 117, 125, 1);
+  padding-left: 16px;
+}
+.aloqa_right textarea{
+  width: 100%;
+  height: 120px;
+  background-color: rgba(247, 247, 247, 1);
+  color: rgba(108, 117, 125, 1);
+  border: none;
+  outline: none;
+  border-radius: 9px;
+}
+.aloqa_right button{
+  width: 180px;
+  height: 35px;
+  background-color: rgba(239, 239, 239, 1);
+  border: none;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-top: 10px;
+
+}
+}
+
+
+
+@media only screen and (max-width:1284px){
+.aloqalar_bottom_flex{
+  max-width: 720px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mapp_img{
+  width: 278px;
+  height: 334px;
+}
+.aloqalar_bottom_right{
+  width: 415px;
+  height: 335px;
+  padding-top: 0px;
+  padding: 0px;
+
+}
+.aloqalar_bottom_right_flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.aloqalar_bottom_right h4{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  padding-left: 30px;
+}
+.aloqalar_bottom_right_card{
+  width: 175px;
+  background-color: rgba(255, 255, 255, 1);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2px; */
+  border: 1px solid  rgba(93, 108, 123, 0.242);
+  border-radius: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.aloqalar_bottom_right_card img{
+width: 16px;
+height: 16px;
+}
+.aloqalar_bottom_right_card p{
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0%;
+
+}
+.aloqalar_bottom_right_card a{
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: black;
+
+}
+}
+
+@media only screen and (max-width:740px){
+  .aloqa_left{
+    width: 390px;
+    height: 387px;
+  }
+  .aloqa_left_socials{
+    margin-top: 77px;
+  }
+  .aloqalar_wrapper{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .aloqalar_bottom_flex{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .question__info p{
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen and (max-width:450px){
+  .aloqa_left{
+    width: 310px;
+    height: 387px;
+
+  }
+  .aloqa_left_socials{
+    margin-top: 77px;
+  }
+  .aloqa_right{
+    width: 300px ;
+  }
+  .aloqa_right button{
+    width: 100%;
+    text-align: center;
+  }
+  .aloqalar_bottom_flex{
+    margin-top: 30px;
+  }
+  .mapp_img{
+    width: 335px;
+    height: 280px;
+  }
+  .aloqalar_bottom_right_flex{
+    width: 338px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+  }
+  .aloqalar_bottom_right_card{
+    width: 150px;
+    font-size: 12px;
+
+  }
+}
